@@ -96,7 +96,7 @@ class
 
 
 
-
+# Check the type of variable assigned using input function
 
 # a = input("enter you name :")
 # print(a)
@@ -105,3 +105,19 @@ class
 # a = input("enter your age :")
 # print(a)
 # print(type(a)) # a is also a string
+
+
+
+# ADDITIONAL OF TWO NUMBERS
+
+a = input("enter first number for addition")
+b = input("enter second number for addition  ")
+a = int(a)
+b = int(b)
+print("Additional of two numbers",(a+b)/2)
+
+#Write a program to enter square of numbers inered by user 
+
+a = input("enter a number")
+a = int(a)
+print("square of number",a*a)

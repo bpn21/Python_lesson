@@ -1,5 +1,6 @@
 
 #We can use python in terminal . It is opens REPL - READ EVALUATE PRINT LOOP.
+# THIS is called immidate mode 
 #For multiple lines ko code ,We use IDE to write python code to make more convinent.
 
 
