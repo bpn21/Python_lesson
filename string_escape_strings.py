@@ -5,10 +5,12 @@
 # or
 # we shoould use \n
 
-story = "bipin is a good boy.\nHe is learning python."
-print(story)
+# story = "bipin is a good boy.\nHe is learning python."
+# print(story)
 
 # \n >>> new line
 # \t >>> tab
 # \' >>> single quote
 # \\ >>> blackslash
+
+
