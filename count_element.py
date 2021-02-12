@@ -6,5 +6,5 @@ for i in a:
     if(i==0):
         count = count + 1
     
-print(count)
+print(  count)
 print(a.count(0))
