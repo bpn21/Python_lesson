@@ -62,3 +62,5 @@ car.update(color)
 
 # print(car['printer'])
 # This will send key error in Dictionary if there is no printer as key in the dictionary
+
+# print(car.items())
