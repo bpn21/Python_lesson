@@ -36,13 +36,18 @@ for i in range(4):
     name[i] = input("enter name of a person : ")
     s.add(name[i])
 print(name)
-
 my_list = list(s)
 
-for i in range(4):
-    fav_language[i] = input("enter fav Language of " + name[i]+" :")
+count = 0
+for i in s:
+    count = count + 1
+
+print(count)
+
+for i in range(count):
+    fav_language[i] = input("enter fav Language of " + my_list[i]+" :")
 print(s)
-for i in range(4):
+for i in range(count):
     dict[name[i]] = fav_language[i]
 
 print(dict)

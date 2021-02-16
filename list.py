@@ -26,3 +26,29 @@ numbers = [10,9,8,7,6,5,4,3,1,2,1]
 # numbers.insert(3,'bipin') # adds bipin at index 3 , index of 3 will be 3
 # numbers.pop(2) #Deletes the elements which is at index 2
 # numbers.remove(21) #Deletes 21 from the numbers
+
+
+
+# Create an empty dictionary. Allow 4 friends to enter their favourite language as values and use keys as their names.Assume that there names are unique.
+s = set()
+dict = {}
+lan_list = []
+name = ['a','b','c','d']
+fav_language = ['a','b','c','d']
+for i in range(4):
+    name[i] = input("enter name of a person : ")
+    # s.add(name[i])
+    lan_list.append(name[i])
+print(name)
+
+# converting sets in to list
+# my_list = list(s)
+
+my_list = lan_list
+for i in range(4):
+    fav_language[i] = input("enter fav Language of "+ lan_list[i]+" :")
+print(s)
+for i in range(4):
+    dict[name[i]] = fav_language[i]
+
+print(dict)
