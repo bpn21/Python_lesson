@@ -2,9 +2,10 @@ text = input("enter a text : ")
 length = len(text)
 count = 0
 reverse = list()
-for i in range(length):
-    reverse.append(text[length-count-1])
-    count = count + 1
+for i in range(0,length):
+    reverse.append(text[length-i-1])
 
-print(reverse)
+list_to_string = ''.join(map(str,reverse))
+print(list_to_string)
+
 
