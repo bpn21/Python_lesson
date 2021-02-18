@@ -53,9 +53,9 @@ s = {1,2,8,4}
 # # s.clear() #It will make the set empty.
 # # print(s)
 
-a = {6,7,8,9}
-s.union(a)
-print(s)
+# a = {6,7,8,9}
+# z = s.union(a)
+# print(s)
 
 # s.intersection({1,2,8,9})
 # print(s)
