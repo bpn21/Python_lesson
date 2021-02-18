@@ -27,15 +27,23 @@
 
 # Write a program to find out given number is prime or not ?
 
-num = int(input("enter a number : "))
-count = 0
-for i in range(1,num):
-    if(num%i==0):
-        count = count + 1
+# num = int(input("enter a number : "))
+# count = 0
+# for i in range(1,num):
+#     if(num%i==0):
+#         count = count + 1
 
-print(count)
-if(count>1 or num == 0 or num == 1 ):
-    print(f"{num} is not a Prime number")
-else:
-    print(f"{num} is a Prime number")
+# print(count)
+# if(count>1 or num == 0 or num == 1 ):
+#     print(f"{num} is not a Prime number")
+# else:
+#     print(f"{num} is a Prime number")
 
+# write a program to print Factorial of a number
+
+# num = int(input("Enter a number"))
+# given_num = num
+# for i in range(1,num):
+#     num = num * (given_num - i)
+
+# print(f"Factorial of {n} is ",num)
