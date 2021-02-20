@@ -1,4 +1,4 @@
-print("Do you want to play a game ?")
+print("Do you want to play Rock Paper Scissors game ?")
 abc = input("Yes or No (Y/n):")
 abc = abc.capitalize()
 if(abc == 'Y'):
