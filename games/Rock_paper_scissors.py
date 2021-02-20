@@ -6,7 +6,6 @@ if(abc == 'Y'):
 else:
     exit()
 
-
 import random
 comp = ''
 rand_num = random.randint(1,3)
@@ -32,7 +31,7 @@ def gameWin(comp,player):
     if(comp=='p'):
         if(player=='r'):
             return False
-        if(player==s):
+        if(player=='s'):
             return True
 
     if(comp=='s'):
