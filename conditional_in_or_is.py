@@ -13,13 +13,16 @@
 
 
 # text = "bipin is a good boy"
-text = "bi bipin pin"
-text = " bi pin bi pin "
+# text = "bi bipin pin"
+# text = " bi pin bi pin "
+# text = "BiPiN"
+# text = "bipin"
+# text = "janak"
 
-if("bipin" in text):
-    print("this is bipin inside text")
-else:
-    print("this is no bipin inside text")
+# if("bipin" in text):
+#     print("there is bipin inside text")
+# else:
+#     print("there is no bipin inside text")
 
 # if("bipin" is text):
 #     print("This is bipin")
@@ -32,11 +35,10 @@ else:
 #     print("This sombody else")
 
 
-
 # Spam detector
 
-# text  = input("enter a text : ")
-
+# text = input("enter a text : ")
+# spam = "spam"
 # if("hello" in text):
 #     spam = True
 # elif("click this" in text):
@@ -50,4 +52,3 @@ else:
 #     print("this is spam")
 # else:
 #     print('This is not a spam')
-

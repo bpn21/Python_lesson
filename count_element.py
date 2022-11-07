@@ -1,10 +1,11 @@
-a = (1,2,3,0,7,0,6,0)
+a = (1, 2, 3, 0, 7, 0, 6, 0, 1)
 
 
 count = 0
 for i in a:
-    if(i==0):
+    print(i)
+    if(i == 0):
         count = count + 1
-    
-print(  count)
-print(a.count(0))
+
+# print(count)s
+# print(a.count(1))
